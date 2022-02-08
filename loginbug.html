@@ -40,7 +40,7 @@
        if (maybe == good) {
 			document.getElementById("g1").innerHTML="恭喜你通过第四关！";
 			document.getElementById("g3").innerHTML="黑客突然意识到自己的行为触犯了法律，自首去了。。。";
-			document.getElementById("g2").innerHTML='alert(flag%7B%E8%BF%99%E5%85%B3%E8%BF%87%E4%BA%8E%E7%AE%80%E5%8D%95%E5%95%A6%E3%80%82%E3%80%82%E3%80%82%7D)';
+			document.getElementById("g2").innerHTML=decodeURIComponent('flag%7B%E8%BF%99%E5%85%B3%E8%BF%87%E4%BA%8E%E7%AE%80%E5%8D%95%E5%95%A6%E3%80%82%E3%80%82%E3%80%82%7D');
 		} else {
 			alert("密码错误，进入失败！");
 		}
